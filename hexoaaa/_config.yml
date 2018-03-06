@@ -81,3 +81,11 @@ deploy:
   type: git
   repo: git@github.com:liuyouyu/liuyouyu.github.io.git
   branch: master
+
+
+# 搜索功能
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
